@@ -1,0 +1,40 @@
+
+body {
+  padding: 40px;
+}
+
+label {
+        display: block;
+        line-height:2;
+        margin-right: 2%;
+        text-align: left;
+      &.quiz-answer {
+          cursor: pointer;
+      }
+}
+
+button{
+  margin-top: 20px;
+}
+
+@layer base{
+  body{
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(-90deg, #d2b3d5, #d5b8e7,#e696db,#e76dd3,#e95ed1);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
