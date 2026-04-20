@@ -1,8 +1,6 @@
 import DataImage, { listOTi } from "./data";
 import {listTools, listProyek} from "./data";
 
-
-
 function App() {
   
 
